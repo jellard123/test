@@ -52,6 +52,7 @@ public class Test {
                     continue;
                 }
                 System.out.println("测试");
+                System.out.println("测试2");
 
                 // 过滤目录
                 if(zipEntry.isDirectory()){
