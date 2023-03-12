@@ -51,6 +51,7 @@ public class Test {
                         zipEntryName.startsWith(".") || zipEntryName.startsWith("__")) {
                     continue;
                 }
+                System.out.println("测试");
 
                 // 过滤目录
                 if(zipEntry.isDirectory()){
